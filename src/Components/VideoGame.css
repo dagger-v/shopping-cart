@@ -1,0 +1,51 @@
+.videogame-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.videogame {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(218, 218, 218);
+  height: 270px;
+  width: 242px;
+  margin: 10px;
+}
+
+.videogame img {
+  transition: all 0.2s ease-in-out;
+}
+
+.title-date {
+  line-height: 0.5;
+  padding-left: 15px;
+}
+
+.vg-date {
+  font-size: small;
+  font-style: italic;
+}
+
+.vg-price {
+  padding-left: 15px;
+  font-weight: bold;
+  color: #3e3e3e;
+}
+
+.vg-console {
+  color: #3e3e3e;
+  padding-left: 15px;
+  font-size: small;
+  font-weight: lighter;
+  border: none;
+  background-color: #fff;
+}
+
+.vg-console:hover {
+  color: rgb(204, 3, 20);
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.sc-empty-title {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.shopping-cart-image {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  height: auto;
+}
+
+.pikachu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

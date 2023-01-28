@@ -2,6 +2,9 @@ import Header from "./Header";
 import image from "../Images/vg-logo.png";
 
 import "./App.css";
+import Featured from "./Featured";
+
+// import vg from "../Images/vg-game-01.png";
 
 function App() {
   return (
@@ -18,11 +21,7 @@ function App() {
         <h1 className="featured-text">Featured</h1>
       </div>
       <div className="featured-content">
-        <div className="featured"></div>
-        <div className="featured"></div>
-        <div className="featured"></div>
-        <div className="featured"></div>
-        <div className="featured"></div>
+        <Featured />
       </div>
     </>
   );
