@@ -6,8 +6,8 @@ const Header = () => {
       <a className="active" href="/">
         Home
       </a>
-      <a href="/videogame">Video Games</a>
-      <a href="/shoppingcart">Shopping Cart</a>
+      <a href="shopping-cart/videogame">Video Games</a>
+      <a href="shopping-cart/shoppingcart">Shopping Cart</a>
       <div className="search-container">
         <form action="/action_page.php">
           <input type="text" placeholder="Search..." name="search" />
