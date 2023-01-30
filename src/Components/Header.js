@@ -1,13 +1,10 @@
 import "./Header.css";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
     <div className="header">
-      <a className="active" href="/">
-        Home
-      </a>
-      <a href="">Video Games</a>
-      <a href="">Shopping Cart</a>
+      <Navbar />
       <div className="search-container">
         <form action="/action_page.php">
           <input type="text" placeholder="Search..." name="search" />
