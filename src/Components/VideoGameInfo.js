@@ -7,7 +7,7 @@ import vg06 from "../Images/vg-game-06.png";
 import vg07 from "../Images/vg-game-07.png";
 import vg08 from "../Images/vg-game-08.png";
 
-const VideoGameList = [
+const VideoGameInfo = [
   {
     id: 1,
     title: "Fire Emblem Engage",
@@ -82,4 +82,4 @@ const VideoGameList = [
   },
 ];
 
-export default VideoGameList;
+export default VideoGameInfo;
