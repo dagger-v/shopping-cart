@@ -5,7 +5,6 @@ import ShoppingCartData from "./ShoppingCartData";
 const ShoppingCart = () => {
   return (
     <>
-      <Header />
       <ShoppingCartData />
     </>
   );
